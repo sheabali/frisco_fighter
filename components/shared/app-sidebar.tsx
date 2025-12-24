@@ -40,6 +40,7 @@ const data = {
       },
     ],
   },
+
   admin: {
     navMain: [
       {
@@ -48,18 +49,18 @@ const data = {
         icon: LayoutDashboard,
       },
       {
-        title: "Users",
-        url: "/user/dashboard/users",
+        title: "Members",
+        url: "/user/dashboard/members",
         icon: HandCoins,
         items: [
           {
-            title: "Users",
-            url: "/user/dashboard/estimates",
+            title: "Events",
+            url: "/user/dashboard/events",
             icon: Users,
           },
           {
-            title: "Pending Users",
-            url: "/user/dashboard/pending-users",
+            title: "Notifications",
+            url: "/user/dashboard/notifications",
             icon: InfoIcon,
           },
         ],
@@ -78,7 +79,6 @@ const data = {
   },
 };
 
-// add roles based on your requirements
 interface AppSidebarProps {
   role: string;
 }

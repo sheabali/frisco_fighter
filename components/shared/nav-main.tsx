@@ -55,7 +55,7 @@ export function NavMain({
                       tooltip={item.title}
                       className={`${
                         isActive
-                          ? "bg-primary text-white hover:bg-primary/80 hover:text-white "
+                          ? "bg-primary text-black hover:bg-primary/80 hover:text-white"
                           : ""
                       }`}
                     >

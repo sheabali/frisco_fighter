@@ -48,7 +48,7 @@ const features = [
   {
     title: "8 Hard Courts",
     desc: "A fast-paced game on our professional-grade courts.",
-    icon: "/logo/member/grid-table.png",
+    icon: "/logo/member/coffee-02.png",
   },
 ];
 
@@ -219,7 +219,7 @@ const MembershipPage = () => {
           </div>
 
           <Image
-            src="/images/a.jpg"
+            src="/images/Rectangle 522.png"
             width={600}
             height={600}
             alt="Social Events"
@@ -239,9 +239,9 @@ const MembershipPage = () => {
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 flex h-full items-center justify-center px-4">
-          <div className="bg-white/90 backdrop-blur-lg rounded-2xl px-14 py-16 text-center shadow-xl">
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-              We Would Love to Have You
+          <div className="bg-white/90 w-[70%] backdrop-blur-lg rounded-2xl px-14 py-16 text-center shadow-xl">
+            <h2 className="text-3xl sm:text-4xl font-semibold mb-4">
+              We Would Love to Have You as a Member
             </h2>
             <p className="text-gray-700 text-lg max-w-xl mx-auto mb-6">
               Join a community committed to tennis, fitness, and lifelong
